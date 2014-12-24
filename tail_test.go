@@ -6,14 +6,15 @@
 package tail
 
 import (
-	"./watch"
 	_ "fmt"
-	"github.com/ActiveState/tail/ratelimiter"
 	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
 	"time"
+
+	"./watch"
+	"github.com/flynn/tail/ratelimiter"
 )
 
 func init() {
