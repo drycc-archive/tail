@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"./watch"
 	"github.com/flynn/tail/ratelimiter"
+	"github.com/flynn/tail/watch"
 )
 
 func init() {
