@@ -5,7 +5,7 @@ package tail
 import (
 	"os"
 
-	"github.com/flynn/tail/winfile"
+	"github.com/drycc/tail/winfile"
 )
 
 func OpenFile(name string) (file *os.File, err error) {

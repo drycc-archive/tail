@@ -3,7 +3,7 @@
 package watch
 
 import (
-	"github.com/flynn/tail/util"
+	"github.com/drycc/tail/util"
 	"gopkg.in/tomb.v1"
 	"os"
 	"time"

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/tail/ratelimiter"
-	"github.com/flynn/tail/util"
-	"github.com/flynn/tail/watch"
+	"github.com/drycc/tail/ratelimiter"
+	"github.com/drycc/tail/util"
+	"github.com/drycc/tail/watch"
 	"gopkg.in/tomb.v1"
 )
 

@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/flynn/tail/util"
+	"github.com/drycc/tail/util"
 	"github.com/howeyc/fsnotify"
 	"gopkg.in/tomb.v1"
 )
